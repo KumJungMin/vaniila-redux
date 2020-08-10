@@ -378,6 +378,8 @@ export default App;
 
 - `actionCreaters`는 `id`값을 받아 -> `deleteToDo`한다.
 
+- `ownProps`에는 현재 컴포넌트의 `props`값(text, onBtnClick, id)를 가진다.
+
 ```js
 import React from 'react';
 import {connect} from 'react-redux';
